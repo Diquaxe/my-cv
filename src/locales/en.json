@@ -1,0 +1,15 @@
+{
+  "nav": { "back": "Back" },
+  "sections": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Side-Projects",
+    "contact": "Contact"
+  },
+  "work": {
+    "highlights": "Highlights",
+    "links": "Links"
+  },
+  "notFound": "Page not found."
+}

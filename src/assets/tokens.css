@@ -1,0 +1,65 @@
+:root {
+  --color-bg: #222222;
+  --color-label-primary: #eeeeee;
+  --color-label-secondary: #bbbbbb;
+  --color-label-tertiary: #888888;
+  --color-accent: #5b8dee;
+  --font-base: 16px;
+  --leading-base: 1.8;
+  --max-width: 580px;
+}
+
+[data-theme="light"] {
+  --color-bg: #f5f5f5;
+  --color-label-primary: #111111;
+  --color-label-secondary: #444444;
+  --color-label-tertiary: #888888;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-label-primary);
+  font-size: var(--font-base);
+  line-height: var(--leading-base);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--color-label-primary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+ul {
+  list-style: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.section-enter-active {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.section-enter-from {
+  opacity: 0;
+  transform: translateY(12px);
+}

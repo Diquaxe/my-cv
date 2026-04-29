@@ -1,0 +1,130 @@
+{
+  "accentColor": "#5b8dee",
+  "name": { "en": "Nikita Mokhov", "ru": "Никита Мохов" },
+  "role": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+  "avatar": "/images/avatar.jpg",
+  "about": {
+    "en": "Software engineer with 8+ years of experience building scalable applications. Passionate about developer tooling, collaborative software, and clean system design.",
+    "ru": "Разработчик с более чем 8-летним опытом создания масштабируемых приложений. Увлечён инструментами разработки, совместным ПО и чистой архитектурой систем."
+  },
+  "experience": [
+    {
+      "id": "figma",
+      "period": { "en": "Nov 2024 — Mar 2026", "ru": "Нояб 2024 — Март 2026" },
+      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+      "company": "IdaProject",
+      "url": "https://idaproject.com/",
+      "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
+      "summary": {
+        "en": "Worked on UX/UI design across multiple simultaneous projects: developed and maintained design systems, led product redesigns, and presented solutions to clients. Initiated improvements on projects — conducted research and proposed design architecture approaches. Participated in client calls, advocated for design decisions, and collaborated closely with development teams.",
+        "ru": "Занимался UX/UI-дизайном интерфейсов в рамках нескольких параллельных проектов: разрабатывал и поддерживал дизайн-системы, проводил редизайн продуктов, презентовал решения клиентам. Инициировал улучшения на проектах — проводил ресёрч, предлагал архитектурные подходы к дизайну. Участвовал в клиентских звонках, аргументировал решения и выстраивал коммуникацию с командой разработки."
+      },
+      "description": {
+        "en": "Led backend infrastructure work for FigJam and core collaboration features. Worked closely with product and design to ship real-time multiplayer features at scale.",
+        "ru": "Руководил разработкой бэкенд-инфраструктуры FigJam и ключевых функций совместной работы. Тесно взаимодействовал с продуктовой и дизайн-командами для запуска функций в реальном времени."
+      },
+      "achievements": [
+        "Optimized core API response times by 40% through query restructuring and caching",
+        "Launched the FigJam templates module used by 2M+ users",
+        "Mentored 4 mid-level engineers across two teams",
+        "Drove adoption of internal RPC framework across 6 microservices"
+      ],
+      "images": [],
+      "links": [
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://figma.com" }
+      ]
+    },
+    {
+      "id": "stripe",
+      "period": { "en": "Jan 2020 — Mar 2023", "ru": "Янв 2020 — Март 2023" },
+      "title": { "en": "Senior Software Engineer", "ru": "Старший разработчик" },
+      "company": "Stripe",
+      "url": "https://stripe.com",
+      "location": { "en": "San Francisco, CA", "ru": "Сан-Франциско, США" },
+      "summary": {
+        "en": "Built payment infrastructure and developer-facing APIs.",
+        "ru": "Создавал платёжную инфраструктуру и API для разработчиков."
+      },
+      "description": {
+        "en": "Worked on the Payments Platform team, owning critical API surfaces used by hundreds of thousands of developers worldwide.",
+        "ru": "Работал в команде Payments Platform, отвечая за ключевые API-интерфейсы, которыми пользуются сотни тысяч разработчиков по всему миру."
+      },
+      "achievements": [
+        "Redesigned webhook delivery system reducing failure rate by 60%",
+        "Built internal dashboard for fraud signal monitoring",
+        "Led migration of legacy billing system to new architecture"
+      ],
+      "images": [],
+      "links": [
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://stripe.com" }
+      ]
+    },
+    {
+      "id": "shopify",
+      "period": { "en": "Jun 2017 — Dec 2019", "ru": "Июнь 2017 — Дек 2019" },
+      "title": { "en": "Software Engineer", "ru": "Разработчик" },
+      "company": "Shopify",
+      "url": "https://shopify.com",
+      "location": { "en": "Ottawa, Canada", "ru": "Оттава, Канада" },
+      "summary": {
+        "en": "Worked on merchant-facing tools and checkout infrastructure.",
+        "ru": "Разрабатывал инструменты для мерчантов и инфраструктуру оформления заказов."
+      },
+      "description": {
+        "en": "Part of the Checkout team, responsible for the core purchase flow powering millions of transactions per day.",
+        "ru": "Входил в команду Checkout, отвечающую за основной процесс покупки, обрабатывающий миллионы транзакций в день."
+      },
+      "achievements": [
+        "Shipped checkout A/B testing framework used across all plans",
+        "Reduced checkout load time by 22% on mobile devices",
+        "Contributed to open-source Liquid templating engine"
+      ],
+      "images": [],
+      "links": [
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://shopify.com" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2011 — 2015",
+      "degree": {
+        "en": "Bachelor of Science in Computer Science",
+        "ru": "Бакалавр по информатике"
+      },
+      "school": {
+        "en": "National University of Singapore",
+        "ru": "Национальный университет Сингапура"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "codesnip",
+      "period": { "en": "Ongoing", "ru": "Сейчас" },
+      "title": "CodeSnip",
+      "url": "https://codesnip.dev",
+      "description": {
+        "en": "A tool to save and share code snippets, built with React and Firebase. 3k+ active users.",
+        "ru": "Инструмент для сохранения и обмена сниппетами кода, построенный на React и Firebase. Более 3000 активных пользователей."
+      }
+    },
+    {
+      "id": "dbdiff",
+      "period": "2022",
+      "title": "dbdiff",
+      "url": "https://github.com/hiroshi/dbdiff",
+      "description": {
+        "en": "Open-source CLI to diff two database schemas and generate migration scripts. 400+ GitHub stars.",
+        "ru": "Open-source CLI для сравнения схем баз данных и генерации миграций. Более 400 звёзд на GitHub."
+      }
+    }
+  ],
+  "contact": [
+    { "label": "Email", "value": "diquaxe@yandex.ru", "url": "diquaxe@yandex.ru" },
+    { "label": "Telegram", "value": "diquaxe", "url": "https://t.me/diquaxe" },
+    { "label": "Twitter", "value": "hiroshi", "url": "https://twitter.com/hiroshi" },
+    { "label": "LinkedIn", "value": "in/hiroshi", "url": "https://linkedin.com/in/hiroshi" },
+    { "label": "Substack", "value": "hiroshi", "url": "https://hiroshi.substack.com" }
+  ]
+}

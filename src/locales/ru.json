@@ -1,0 +1,15 @@
+{
+  "nav": { "back": "Назад" },
+  "sections": {
+    "about": "Обо мне",
+    "experience": "Опыт",
+    "education": "Образование",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "work": {
+    "highlights": "Достижения",
+    "links": "Ссылки"
+  },
+  "notFound": "Страница не найдена."
+}
