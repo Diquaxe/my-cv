@@ -3,6 +3,9 @@ import { onMounted } from 'vue'
 import { RouterView } from 'vue-router'
 import ThemeToggle from './components/ThemeToggle.vue'
 import profile from './data/profile.json'
+import { useGeoLang } from './composables/useGeoLang.js'
+
+await useGeoLang()
 
 onMounted(() => {
   document.documentElement.style.setProperty('--color-accent', profile.accentColor)

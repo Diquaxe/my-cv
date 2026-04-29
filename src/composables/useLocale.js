@@ -7,6 +7,7 @@ export function useLocale() {
   function toggleLocale() {
     locale.value = locale.value === 'ru' ? 'en' : 'ru'
     localStorage.setItem('locale', locale.value)
+    localStorage.setItem('lang', locale.value)
     i18n.global.locale.value = locale.value
   }
   return { locale, toggleLocale }
