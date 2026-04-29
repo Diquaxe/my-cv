@@ -38,7 +38,7 @@ watchEffect(() => {
         <div class="flex flex-wrap gap-3 text-sm" style="color: var(--color-label-tertiary);">
           <span>{{ item.company }}</span>
           <span>·</span>
-          <span>{{ item.period }}</span>
+          <span>{{ t(item.period, locale) }}</span>
           <span v-if="item.location">·</span>
           <span v-if="item.location">{{ t(item.location, locale) }}</span>
         </div>

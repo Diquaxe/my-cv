@@ -5,9 +5,8 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import profile from './data/profile.json'
 import { useGeoLang } from './composables/useGeoLang.js'
 
-await useGeoLang()
-
 onMounted(() => {
+  useGeoLang()
   document.documentElement.style.setProperty('--color-accent', profile.accentColor)
 
   const saved = localStorage.getItem('theme')
