@@ -9,15 +9,15 @@
   },
   "experience": [
     {
-      "id": "figma",
+      "id": "idaproject",
       "period": { "en": "Nov 2024 — Mar 2026", "ru": "Нояб 2024 — Март 2026" },
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "IdaProject",
       "url": "https://idaproject.com/",
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
-        "en": "Worked on UX/UI design across multiple simultaneous projects: developed and maintained design systems, led product redesigns, and presented solutions to clients. Initiated improvements on projects — conducted research and proposed design architecture approaches. Participated in client calls, advocated for design decisions, and collaborated closely with development teams.",
-        "ru": "Занимался UX/UI-дизайном интерфейсов в рамках нескольких параллельных проектов: разрабатывал и поддерживал дизайн-системы, проводил редизайн продуктов, презентовал решения клиентам. Инициировал улучшения на проектах — проводил ресёрч, предлагал архитектурные подходы к дизайну. Участвовал в клиентских звонках, аргументировал решения и выстраивал коммуникацию с командой разработки."
+        "en": "Worked on design across multiple simultaneous projects: developed and maintained design systems, led product redesigns, and presented solutions to clients. Initiated improvements on projects — conducted research and proposed design architecture approaches. Participated in client calls, advocated for design decisions, and collaborated closely with development teams.",
+        "ru": "Занимался дизайном интерфейсов в рамках нескольких параллельных проектов: разрабатывал и поддерживал дизайн-системы, проводил редизайн продуктов, презентовал решения клиентам. Инициировал улучшения на проектах — проводил ресёрч, предлагал архитектурные подходы к дизайну. Участвовал в клиентских звонках, аргументировал решения и выстраивал коммуникацию с командой разработки."
       },
       "description": {
         "en": "Led backend infrastructure work for FigJam and core collaboration features. Worked closely with product and design to ship real-time multiplayer features at scale.",
@@ -35,15 +35,15 @@
       ]
     },
     {
-      "id": "stripe",
-      "period": { "en": "Jan 2020 — Mar 2023", "ru": "Янв 2020 — Март 2023" },
-      "title": { "en": "Senior Software Engineer", "ru": "Старший разработчик" },
-      "company": "Stripe",
-      "url": "https://stripe.com",
-      "location": { "en": "San Francisco, CA", "ru": "Сан-Франциско, США" },
+      "id": "buroburo",
+      "period": { "en": "Jan 2020 — Mar 2023", "ru": "Фев 2022 — Окт 2024" },
+      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+      "company": "BuroBuro",
+      "url": "https://buroburo.ru",
+      "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "en": "Built payment infrastructure and developer-facing APIs.",
-        "ru": "Создавал платёжную инфраструктуру и API для разработчиков."
+        "ru": "Поддерживал и развивал клиентские проекты, участвовал в формировании бизнес- и функциональных требований совместно с заказчиками. Проектировал интерфейсы и многостраничные продукты, работал с дизайн-системами: проводил рефакторинг, создавал компонентную базу с вариантами и токенами. Взаимодействовал с разработчиками, оформлял кейсы для сайта студии."
       },
       "description": {
         "en": "Worked on the Payments Platform team, owning critical API surfaces used by hundreds of thousands of developers worldwide.",
@@ -123,8 +123,6 @@
   "contact": [
     { "label": "Email", "value": "diquaxe@yandex.ru", "url": "diquaxe@yandex.ru" },
     { "label": "Telegram", "value": "diquaxe", "url": "https://t.me/diquaxe" },
-    { "label": "Twitter", "value": "hiroshi", "url": "https://twitter.com/hiroshi" },
-    { "label": "LinkedIn", "value": "in/hiroshi", "url": "https://linkedin.com/in/hiroshi" },
-    { "label": "Substack", "value": "hiroshi", "url": "https://hiroshi.substack.com" }
+    { "label": "LinkedIn", "value": "in/nikita-mohov", "url": "https://www.linkedin.com/in/nikita-mohov-8082363a6/" }
   ]
 }

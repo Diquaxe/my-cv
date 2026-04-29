@@ -8,7 +8,7 @@ defineProps({
   url: String,
   workUrl: String,
   location: String,
-  description: String,
+  description: [String, Array],
 })
 </script>
 
@@ -24,39 +24,25 @@ defineProps({
           :to="workUrl"
           class="font-medium transition-colors duration-300 text-[var(--color-label-primary)] hover:text-[var(--color-accent)]"
         >
-          {{ title }}
+          {{ company }}
         </RouterLink>
         <span v-else class="font-medium" style="color: var(--color-label-primary);">
-          {{ title }}
+          {{ company }}
         </span>
 
-        <span v-if="company" style="color: var(--color-label-secondary);">
-          · {{ company }}
+        <span v-if="title" style="color: var(--color-label-secondary);">
+          · {{ title }}
         </span>
-
-        <a
-          v-if="url"
-          :href="url"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center transition-colors duration-300"
-          style="color: var(--color-label-tertiary);"
-          @mouseenter="$event.currentTarget.style.color='var(--color-accent)'"
-          @mouseleave="$event.currentTarget.style.color='var(--color-label-tertiary)'"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-            <polyline points="15 3 21 3 21 9"/>
-            <line x1="10" y1="14" x2="21" y2="3"/>
-          </svg>
-        </a>
       </div>
 
       <p v-if="location" class="text-sm mb-1" style="color: var(--color-label-tertiary);">
         {{ location }}
       </p>
 
-      <p class="text-sm leading-relaxed" style="color: var(--color-label-secondary);">
+      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside" style="color: var(--color-label-secondary);">
+        <li v-for="(item, i) in description" :key="i">{{ item }}</li>
+      </ul>
+      <p v-else class="text-sm leading-relaxed" style="color: var(--color-label-secondary);">
         {{ description }}
       </p>
     </div>

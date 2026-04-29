@@ -14,7 +14,7 @@ defineProps({
         :src="avatar"
         :alt="name"
         class="w-20 h-20 rounded-full object-cover"
-        style="border: 2px solid var(--color-label-tertiary);"
+
         @error="$event.target.style.display='none'"
       />
       <div
