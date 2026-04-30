@@ -11,7 +11,7 @@ const { locale } = useLocale()
 
 <template>
   <section class="mb-10">
-    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6" style="color: var(--color-label-tertiary);">
+    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6 text-tertiary">
       {{ $t('sections.experience') }}
     </h2>
     <ExperienceItem

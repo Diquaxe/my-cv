@@ -16,6 +16,11 @@
   --color-label-tertiary: #888888;
 }
 
+/* Color utility classes */
+.text-primary   { color: var(--color-label-primary); }
+.text-secondary { color: var(--color-label-secondary); }
+.text-tertiary  { color: var(--color-label-tertiary); }
+
 * {
   box-sizing: border-box;
   margin: 0;

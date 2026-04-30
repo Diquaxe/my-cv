@@ -11,14 +11,14 @@ const { locale } = useLocale()
 
 <template>
   <section class="mb-10">
-    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6" style="color: var(--color-label-tertiary);">
+    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6 text-tertiary">
       {{ $t('sections.projects') }}
     </h2>
     <ExperienceItem
       v-for="item in items"
       :key="item.id"
       :period="t(item.period, locale)"
-      :title="t(item.title, locale)"
+      :company="t(item.title, locale)"
       :url="item.url"
       :description="t(item.description, locale)"
     />
