@@ -22,20 +22,23 @@ watchEffect(() => {
   <main class="mx-auto px-4 sm:px-0 my-20" style="max-width: var(--max-width);">
     <div v-if="item">
       <!-- Breadcrumb -->
-      <nav class="flex items-center gap-2 mb-10 text-sm" style="color: var(--color-label-tertiary);">
-        <RouterLink to="/" class="transition-colors duration-300 hover:text-[var(--color-accent)]" style="color: var(--color-label-tertiary);">
+      <nav class="flex items-center gap-2 mb-10 text-sm text-tertiary">
+        <RouterLink
+          to="/"
+          class="transition-colors duration-300 text-tertiary hover:text-[var(--color-accent)]"
+        >
           {{ $t('nav.back') }}
         </RouterLink>
         <span style="color: var(--color-accent);">›</span>
-        <span style="color: var(--color-label-secondary);">{{ item.company }}</span>
+        <span class="text-secondary">{{ item.company }}</span>
       </nav>
 
       <!-- Header -->
       <div class="mb-10">
-        <h1 class="text-2xl font-semibold mb-1" style="color: var(--color-label-primary);">
+        <h1 class="text-2xl font-semibold mb-1 text-primary">
           {{ t(item.title, locale) }}
         </h1>
-        <div class="flex flex-wrap gap-3 text-sm" style="color: var(--color-label-tertiary);">
+        <div class="flex flex-wrap gap-3 text-sm text-tertiary">
           <span>{{ item.company }}</span>
           <span>·</span>
           <span>{{ t(item.period, locale) }}</span>
@@ -46,22 +49,21 @@ watchEffect(() => {
 
       <!-- Description -->
       <div class="mb-10">
-        <p class="text-sm leading-relaxed" style="color: var(--color-label-secondary); line-height: var(--leading-base);">
+        <p class="text-sm text-secondary" style="line-height: var(--leading-base);">
           {{ t(item.description, locale) }}
         </p>
       </div>
 
       <!-- Achievements -->
       <div v-if="item.achievements?.length" class="mb-10">
-        <h2 class="text-xs font-semibold uppercase tracking-widest mb-4" style="color: var(--color-label-tertiary);">
+        <h2 class="text-xs font-semibold uppercase tracking-widest mb-4 text-tertiary">
           {{ $t('work.highlights') }}
         </h2>
         <ul class="flex flex-col gap-2">
           <li
             v-for="(ach, i) in item.achievements"
             :key="i"
-            class="flex gap-3 text-sm"
-            style="color: var(--color-label-secondary);"
+            class="flex gap-3 text-sm text-secondary"
           >
             <span class="mt-[6px] shrink-0 w-1.5 h-1.5 rounded-full" style="background: var(--color-accent);"></span>
             {{ ach }}
@@ -87,7 +89,7 @@ watchEffect(() => {
 
       <!-- Links -->
       <div v-if="item.links?.length" class="mb-10">
-        <h2 class="text-xs font-semibold uppercase tracking-widest mb-4" style="color: var(--color-label-tertiary);">
+        <h2 class="text-xs font-semibold uppercase tracking-widest mb-4 text-tertiary">
           {{ $t('work.links') }}
         </h2>
         <div class="flex flex-col gap-2">
@@ -97,10 +99,7 @@ watchEffect(() => {
             :href="link.url"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm inline-flex items-center gap-1.5 transition-colors duration-300"
-            style="color: var(--color-label-primary);"
-            @mouseenter="$event.currentTarget.style.color='var(--color-accent)'"
-            @mouseleave="$event.currentTarget.style.color='var(--color-label-primary)'"
+            class="text-sm text-primary transition-colors duration-300"
           >
             {{ t(link.label, locale) }}
           </a>
@@ -108,8 +107,9 @@ watchEffect(() => {
       </div>
     </div>
 
-    <div v-else class="text-sm" style="color: var(--color-label-tertiary);">
-      {{ $t('notFound') }} <RouterLink to="/" style="color: var(--color-accent);">{{ $t('nav.back') }}</RouterLink>
+    <div v-else class="text-sm text-tertiary">
+      {{ $t('notFound') }}
+      <RouterLink to="/" style="color: var(--color-accent);">{{ $t('nav.back') }}</RouterLink>
     </div>
   </main>
 </template>

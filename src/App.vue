@@ -7,7 +7,10 @@ import { useGeoLang } from './composables/useGeoLang.js'
 
 onMounted(() => {
   useGeoLang()
-  document.documentElement.style.setProperty('--color-accent', profile.accentColor)
+
+  if (/^#[0-9A-Fa-f]{6}$/.test(profile.accentColor)) {
+    document.documentElement.style.setProperty('--color-accent', profile.accentColor)
+  }
 
   const saved = localStorage.getItem('theme')
   if (saved) {

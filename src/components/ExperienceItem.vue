@@ -14,7 +14,7 @@ defineProps({
 
 <template>
   <div class="flex flex-col md:flex-row gap-2 mb-9">
-    <div class="md:min-w-[180px] text-sm shrink-0" style="color: var(--color-label-tertiary);">
+    <div class="md:min-w-[180px] text-sm shrink-0 text-tertiary">
       {{ period }}
     </div>
     <div class="flex-1">
@@ -22,27 +22,27 @@ defineProps({
         <RouterLink
           v-if="workUrl"
           :to="workUrl"
-          class="font-medium transition-colors duration-300 text-[var(--color-label-primary)] hover:text-[var(--color-accent)]"
+          class="font-medium transition-colors duration-300 text-primary hover:text-[var(--color-accent)]"
         >
           {{ company }}
         </RouterLink>
-        <span v-else class="font-medium" style="color: var(--color-label-primary);">
+        <span v-else class="font-medium text-primary">
           {{ company }}
         </span>
 
-        <span v-if="title" style="color: var(--color-label-secondary);">
+        <span v-if="title" class="text-secondary">
           · {{ title }}
         </span>
       </div>
 
-      <p v-if="location" class="text-sm mb-1" style="color: var(--color-label-tertiary);">
+      <p v-if="location" class="text-sm mb-1 text-tertiary">
         {{ location }}
       </p>
 
-      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside" style="color: var(--color-label-secondary);">
+      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside text-secondary">
         <li v-for="(item, i) in description" :key="i">{{ item }}</li>
       </ul>
-      <p v-else class="text-sm leading-relaxed" style="color: var(--color-label-secondary);">
+      <p v-else class="text-sm leading-relaxed text-secondary">
         {{ description }}
       </p>
     </div>

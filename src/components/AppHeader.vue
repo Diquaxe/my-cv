@@ -14,7 +14,6 @@ defineProps({
         :src="avatar"
         :alt="name"
         class="w-20 h-20 rounded-full object-cover"
-
         @error="$event.target.style.display='none'"
       />
       <div
@@ -25,10 +24,10 @@ defineProps({
         {{ name?.charAt(0) }}
       </div>
       <div>
-        <h1 class="text-xl font-semibold leading-tight" style="color: var(--color-label-primary);">
+        <h1 class="text-xl font-semibold leading-tight text-primary">
           {{ name }}
         </h1>
-        <p class="text-sm" style="color: var(--color-label-tertiary);">{{ role }}</p>
+        <p class="text-sm text-tertiary">{{ role }}</p>
       </div>
     </div>
   </header>

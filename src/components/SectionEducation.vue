@@ -10,7 +10,7 @@ const { locale } = useLocale()
 
 <template>
   <section class="mb-10">
-    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6" style="color: var(--color-label-tertiary);">
+    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6 text-tertiary">
       {{ $t('sections.education') }}
     </h2>
     <div
@@ -18,12 +18,12 @@ const { locale } = useLocale()
       :key="i"
       class="flex flex-col md:flex-row gap-2 mb-9"
     >
-      <div class="md:min-w-[180px] text-sm shrink-0" style="color: var(--color-label-tertiary);">
+      <div class="md:min-w-[180px] text-sm shrink-0 text-tertiary">
         {{ t(item.period, locale) }}
       </div>
       <div class="flex-1">
-        <p class="font-medium mb-0.5" style="color: var(--color-label-primary);">{{ t(item.degree, locale) }}</p>
-        <p class="text-sm" style="color: var(--color-label-secondary);">{{ t(item.school, locale) }}</p>
+        <p class="font-medium mb-0.5 text-primary">{{ t(item.degree, locale) }}</p>
+        <p class="text-sm text-secondary">{{ t(item.school, locale) }}</p>
       </div>
     </div>
   </section>

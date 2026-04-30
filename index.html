@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSP should be configured as a server/CDN response header in production,
+         not here — vue-i18n requires 'unsafe-eval' in dev (JIT compiler),
+         and the production build pre-compiles messages so eval is not needed. -->
     <title>read-cv-clone</title>
   </head>
   <body>
