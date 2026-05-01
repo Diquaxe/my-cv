@@ -92,21 +92,33 @@
         ]
       },
       "description": {
-        "en": "Worked on the Payments Platform team, owning critical API surfaces used by hundreds of thousands of developers worldwide.",
-        "ru": "Работал в команде Payments Platform, отвечая за ключевые API-интерфейсы, которыми пользуются сотни тысяч разработчиков по всему миру."
+        "en": "Designed UI/UX interfaces and multi-page digital products. Supported and developed client projects across all stages of the lifecycle. Participated in gathering and defining business and functional requirements, collaborating with clients. Worked with design systems: conducted refactoring, created and expanded component libraries using tokens and variants. Collaborated with development teams to ensure accurate implementation of design solutions. Produced portfolio case studies for the studio website.",
+        "ru": "Разрабатывал UI/UX интерфейсы и многостраничные цифровые продукты. Поддерживал и развивал клиентские проекты на всех этапах жизненного цикла. Участвовал в сборе и формировании бизнес- и функциональных требований, взаимодействовал с заказчиками. Работал с дизайн-системами: проводил рефакторинг, создавал и расширял компонентную базу с использованием токенов и вариантов. Взаимодействовал с командой разработчиков для обеспечения корректной реализации дизайн-решений. Оформлял портфолио кейсов для сайта студии."
       },
       "achievements": [
         {
-          "en": "Redesigned webhook delivery system reducing failure rate by 60%",
-          "ru": "Переработал систему доставки вебхуков, снизив процент отказов на 60%"
+          "ru": "Разработка UI/UX дизайна интерфейсов и многостраничных цифровых продуктов",
+          "en": "Designing UI/UX interfaces and multi-page digital products"
         },
         {
-          "en": "Built internal dashboard for fraud signal monitoring",
-          "ru": "Разработал внутренний дашборд для мониторинга сигналов мошенничества"
+          "ru": "Поддержка и развитие клиентских проектов на всех этапах жизненного цикла",
+          "en": "Supporting and developing client projects across all stages of the lifecycle"
         },
         {
-          "en": "Led migration of legacy billing system to new architecture",
-          "ru": "Руководил миграцией устаревшей системы биллинга на новую архитектуру"
+          "ru": "Сбор и формирование бизнес- и функциональных требований, взаимодействие с заказчиками",
+          "en": "Gathering and defining business and functional requirements, collaborating with clients"
+        },
+        {
+          "ru": "Разработка и рефакторинг дизайн-систем: создание компонентной базы, настройка токенов и вариантов компонентов",
+          "en": "Developing and refactoring design systems: building component libraries, configuring tokens and component variants"
+        },
+        {
+          "ru": "Взаимодействие с командой разработчиков для корректного handoff и реализации дизайн-решений",
+          "en": "Collaborating with development teams for accurate handoff and implementation of design solutions"
+        },
+        {
+          "ru": "Подготовка и оформление портфолио кейсов для сайта студии",
+          "en": "Preparing and publishing portfolio case studies for the studio website"
         }
       ],
       "images": [],

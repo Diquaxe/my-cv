@@ -56,9 +56,9 @@ watchEffect(() => {
 
       <!-- Achievements -->
       <div v-if="item.achievements?.length" class="mb-10">
-        <h2 class="text-xs font-semibold uppercase tracking-widest mb-4 text-tertiary">
+        <!-- <h2 class="text-xs font-semibold uppercase tracking-widest mb-4 text-tertiary">
           {{ $t('work.highlights') }}
-        </h2>
+        </h2> -->
         <ul class="flex flex-col gap-2">
           <li
             v-for="(ach, i) in item.achievements"
