@@ -24,10 +24,20 @@ watchEffect(() => {
 </script>
 
 <template>
-  <main class="mx-auto px-4 sm:px-0 my-20" style="max-width: var(--max-width);">
-    <Transition name="section" appear>
+  <main
+    class="mx-auto px-4 sm:px-0 my-20"
+    style="max-width: var(--max-width);"
+  >
+    <Transition
+      name="section"
+      appear
+    >
       <div>
-        <AppHeader :name="name" :role="role" :avatar="profile.avatar" />
+        <AppHeader
+          :name="name"
+          :role="role"
+          :avatar="profile.avatar"
+        />
         <SectionContact :items="profile.contact" />
         <SectionAbout :about="about" />
         <SectionExperience :items="profile.experience" />

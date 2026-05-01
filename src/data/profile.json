@@ -4,8 +4,8 @@
   "role": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
   "avatar": "/images/avatar.jpg",
   "about": {
-    "en": "Software engineer with 8+ years of experience building scalable applications. Passionate about developer tooling, collaborative software, and clean system design.",
-    "ru": "Разработчик с более чем 8-летним опытом создания масштабируемых приложений. Увлечён инструментами разработки, совместным ПО и чистой архитектурой систем."
+    "en": "UX/UI designer focused on digital products, interfaces, and design systems. Experienced in client projects, mobile apps, and multi-page platforms across real estate and enterprise domains.",
+    "ru": "UX/UI дизайнер с фокусом на цифровых продуктах, интерфейсах и дизайн-системах. Опыт в клиентских проектах, мобильных приложениях и многостраничных платформах в сферах недвижимости и enterprise."
   },
   "skills": [
     "Figma", "FigJam", "Miro", "UI Design", "UX Research", "Prototyping",
@@ -45,8 +45,8 @@
         ]
       },
       "description": {
-        "en": "Led backend infrastructure work for FigJam and core collaboration features. Worked closely with product and design to ship real-time multiplayer features at scale.",
-        "ru": "Руководил разработкой бэкенд-инфраструктуры FigJam и ключевых функций совместной работы. Тесно взаимодействовал с продуктовой и дизайн-командами для запуска функций в реальном времени."
+        "en": "Designed interfaces for 5+ simultaneous client projects. Built and maintained design systems, delivered a full redesign of Samolet's internal registration center, and optimized icon components — reducing Figma swap time from ~5s to 0.5s.",
+        "ru": "Проектировал интерфейсы для 5+ клиентских проектов одновременно. Собирал и поддерживал дизайн-системы, выполнил полный редизайн кабинета регистрационного центра Самолёт, оптимизировал компоненты иконок — время свапа в Figma сократилось с ~5с до 0.5с."
       },
       "achievements": [
         {
@@ -72,12 +72,12 @@
       ],
       "images": [],
       "links": [
-        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://figma.com" }
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://idaproject.com/" }
       ]
     },
     {
       "id": "buroburo",
-      "period": { "en": "Jan 2020 — Mar 2023", "ru": "Фев 2022 — Окт 2024" },
+      "period": { "en": "Feb 2022 — Oct 2024", "ru": "Фев 2022 — Окт 2024" },
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "BuroBuro",
       "url": "https://buroburo.ru",
@@ -133,7 +133,7 @@
       ],
       "images": [],
       "links": [
-        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://stripe.com" }
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://buroburo.ru" }
       ]
     },
     {
@@ -159,21 +159,21 @@
         ]
       },
       "description": {
-        "en": "Part of the Checkout team, responsible for the core purchase flow powering millions of transactions per day.",
-        "ru": "Входил в команду Checkout, отвечающую за основной процесс покупки, обрабатывающий миллионы транзакций в день."
+        "en": "Designed mobile apps, interfaces and multi-page websites for various clients. Created design systems and UI kits with variant components and micro-animations. Developed interactive prototypes and maintained direct client communication.",
+        "ru": "Разрабатывал мобильные приложения, интерфейсы и многостраничные сайты для различных заказчиков. Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями. Разрабатывал интерактивные прототипы и вёл прямую коммуникацию с клиентами."
       },
       "achievements": [
         {
-          "en": "Shipped checkout A/B testing framework used across all plans",
-          "ru": "Разработал фреймворк для A/B-тестирования чекаута, применяемый во всех тарифных планах"
+          "en": "Designed mobile applications and multi-page websites across various client domains",
+          "ru": "Разрабатывал мобильные приложения и многостраничные сайты для различных клиентских проектов"
         },
         {
-          "en": "Reduced checkout load time by 22% on mobile devices",
-          "ru": "Сократил время загрузки чекаута на 22% на мобильных устройствах"
+          "en": "Built design systems and UI kits with variant components and micro-animations",
+          "ru": "Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями"
         },
         {
-          "en": "Contributed to open-source Liquid templating engine",
-          "ru": "Внёс вклад в открытый шаблонизатор Liquid"
+          "en": "Created complex interactive prototypes for client presentations and development handoff",
+          "ru": "Разрабатывал сложные интерактивные прототипы для презентаций заказчикам и передачи в разработку"
         }
       ],
       "images": [],

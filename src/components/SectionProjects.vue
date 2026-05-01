@@ -11,7 +11,10 @@ const { locale } = useLocale()
 
 <template>
   <section class="mb-10">
-    <h2 class="text-xl font-semibold leading-tight mb-6" style="color: #fff;">
+    <h2
+      class="text-xl font-semibold leading-tight mb-6"
+      style="color: #fff;"
+    >
       {{ $t('sections.projects') }}
     </h2>
     <ExperienceItem

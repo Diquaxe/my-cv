@@ -27,23 +27,43 @@ defineProps({
         >
           {{ company }}
         </RouterLink>
-        <span v-else class="font-medium text-primary">
+        <span
+          v-else
+          class="font-medium text-primary"
+        >
           {{ company }}
         </span>
 
-        <span v-if="title" class="text-secondary">
+        <span
+          v-if="title"
+          class="text-secondary"
+        >
           · {{ title }}
         </span>
       </div>
 
-      <p v-if="location" class="text-sm mb-1 text-tertiary">
+      <p
+        v-if="location"
+        class="text-sm mb-1 text-tertiary"
+      >
         {{ location }}
       </p>
 
-      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside text-secondary mt-3">
-        <li v-for="(item, i) in description" :key="i">{{ item }}</li>
+      <ul
+        v-if="Array.isArray(description)"
+        class="text-sm leading-relaxed list-disc list-inside text-secondary mt-3"
+      >
+        <li
+          v-for="(item, i) in description"
+          :key="i"
+        >
+          {{ item }}
+        </li>
       </ul>
-      <p v-else class="text-sm leading-relaxed text-secondary">
+      <p
+        v-else
+        class="text-sm leading-relaxed text-secondary"
+      >
         {{ description }}
       </p>
 
