@@ -5,7 +5,9 @@
     "experience": "Work Experience",
     "education": "Education",
     "projects": "Side-Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "skills": "Skills",
+    "languages": "Languages"
   },
   "work": {
     "highlights": "Highlights",

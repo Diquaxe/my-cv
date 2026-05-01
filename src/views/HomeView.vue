@@ -6,6 +6,8 @@ import SectionExperience from '../components/SectionExperience.vue'
 import SectionEducation from '../components/SectionEducation.vue'
 import SectionProjects from '../components/SectionProjects.vue'
 import SectionContact from '../components/SectionContact.vue'
+import SectionSkills from '../components/SectionSkills.vue'
+import SectionLanguages from '../components/SectionLanguages.vue'
 import profile from '../data/profile.json'
 import { useLocale } from '@/composables/useLocale.js'
 import { t } from '@/utils/t.js'
@@ -29,8 +31,10 @@ watchEffect(() => {
         <SectionContact :items="profile.contact" />
         <SectionAbout :about="about" />
         <SectionExperience :items="profile.experience" />
-        <SectionEducation :items="profile.education" />
         <SectionProjects :items="profile.projects" />
+        <SectionEducation :items="profile.education" />
+        <SectionSkills :items="profile.skills" />
+        <SectionLanguages :items="profile.languages" />
       </div>
     </Transition>
   </main>

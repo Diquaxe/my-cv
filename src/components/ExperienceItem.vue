@@ -9,6 +9,7 @@ defineProps({
   workUrl: String,
   location: String,
   description: [String, Array],
+  link: Object,
 })
 </script>
 
@@ -45,6 +46,16 @@ defineProps({
       <p v-else class="text-sm leading-relaxed text-secondary">
         {{ description }}
       </p>
+
+      <a
+        v-if="link?.url"
+        :href="link.url"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block text-sm mt-2 hover:underline transition-colors duration-300 text-primary"
+      >
+        {{ link.label }}
+      </a>
     </div>
   </div>
 </template>
