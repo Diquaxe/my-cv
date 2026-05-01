@@ -7,6 +7,14 @@
     "en": "Software engineer with 8+ years of experience building scalable applications. Passionate about developer tooling, collaborative software, and clean system design.",
     "ru": "Разработчик с более чем 8-летним опытом создания масштабируемых приложений. Увлечён инструментами разработки, совместным ПО и чистой архитектурой систем."
   },
+  "skills": [
+    "Figma", "FigJam", "Miro", "UI Design", "UX Research", "Prototyping",
+    "Design Systems", "UI Kit", "Wireframing", "User Testing", "Handoff", "Micro-animations"
+  ],
+  "languages": [
+    { "ru": "Русский язык — носитель", "en": "Russian — Native" },
+    { "ru": "Английский — B2", "en": "English — B2" }
+  ],
   "experience": [
     {
       "id": "idaproject",
@@ -189,14 +197,27 @@
   ],
   "projects": [
     {
-      "id": "codesnip",
-      "period": { "en": "Ongoing", "ru": "Сейчас" },
-      "title": "CodeSnip",
-      "url": "https://codesnip.dev",
+      "id": "my-cv",
+      "period": "2026",
+      "title": "My CV",
       "description": {
-        "en": "A tool to save and share code snippets, built with React and Firebase. 3k+ active users.",
-        "ru": "Инструмент для сохранения и обмена сниппетами кода, построенный на React и Firebase. Более 3000 активных пользователей."
-      }
+        "ru": "Вы сейчас на нем находитесь. Простой сайт для размещения CV, написанный с помощью Claude Code.",
+        "en": "You are on it right now. A simple CV site written with Claude Code."
+      },
+      "caseUrl": "https://github.com/Diquaxe/my-cv",
+      "caseLabel": { "ru": "Репозиторий на GitHub", "en": "GitHub Repository" }
+    },
+    {
+      "id": "companies-ui",
+      "period": { "en": "Ongoing", "ru": "Сейчас" },
+      "title": "Companies UI",
+      "url": "https://dprofile.ru/case/70794/companies-ui",
+      "description": {
+        "en": "A repository website of corporate identity styles from well-known companies around the world.",
+        "ru": "Сайт-репозиторий фирменных стилей известных компаний со всего мира."
+      },
+      "caseUrl": "https://dprofile.ru/case/70794/companies-ui",
+      "caseLabel": { "ru": "Смотреть кейс", "en": "View case" }
     },
     {
       "id": "dbdiff",

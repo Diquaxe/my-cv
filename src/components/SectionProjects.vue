@@ -21,6 +21,7 @@ const { locale } = useLocale()
       :company="t(item.title, locale)"
       :url="item.url"
       :description="t(item.description, locale)"
+      :link="item.caseUrl ? { url: item.caseUrl, label: t(item.caseLabel, locale) } : null"
     />
   </section>
 </template>
