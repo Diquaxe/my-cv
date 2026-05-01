@@ -40,16 +40,6 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-a {
-  color: var(--color-label-primary);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: var(--color-accent);
-}
-
 ul {
   list-style: none;
 }

@@ -23,7 +23,7 @@ defineProps({
         <RouterLink
           v-if="workUrl"
           :to="workUrl"
-          class="font-medium transition-colors duration-300 text-primary hover:text-[var(--color-accent)]"
+          class="font-medium transition-colors duration-300"
         >
           {{ company }}
         </RouterLink>
@@ -72,7 +72,7 @@ defineProps({
         :href="link.url"
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-block text-sm mt-2 hover:underline transition-colors duration-300 text-primary"
+        class="inline-block text-sm mt-2 hover:underline transition-colors duration-300"
       >
         {{ link.label }}
       </a>

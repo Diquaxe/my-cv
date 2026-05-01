@@ -27,7 +27,7 @@ function isSafeUrl(url) {
           :href="item.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-sm text-primary hover:underline transition-colors duration-300"
+          class="text-sm hover:underline transition-colors duration-300"
         >
           {{ t(item.value, locale) }}
         </a>

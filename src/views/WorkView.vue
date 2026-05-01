@@ -27,7 +27,7 @@ watchEffect(() => {
       <nav class="flex items-center gap-2 mb-10 text-sm text-tertiary">
         <RouterLink
           to="/"
-          class="transition-colors duration-300 text-tertiary hover:text-[var(--color-accent)]"
+          class="transition-colors duration-300"
         >
           {{ tKey('nav.back', locale.value) }}
         </RouterLink>
@@ -113,7 +113,7 @@ watchEffect(() => {
             :href="link.url"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-sm text-primary transition-colors duration-300"
+            class="text-sm transition-colors duration-300"
           >
             {{ t(link.label, locale) }}
           </a>
@@ -128,8 +128,7 @@ watchEffect(() => {
       {{ tKey('notFound', locale.value) }}
       <RouterLink
         to="/"
-        style="color: var(--color-accent);"
-      >
+>
         {{ tKey('nav.back', locale.value) }}
       </RouterLink>
     </div>
