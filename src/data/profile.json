@@ -14,6 +14,7 @@
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "IdaProject",
       "url": "https://idaproject.com/",
+      "tagline": { "en": "Design partner for 64% of top-100 ERZ developers", "ru": "Разработчик для 64% девелоперов из топ-100 ЕРЗ" },
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "ru": [
@@ -72,6 +73,7 @@
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "BuroBuro",
       "url": "https://buroburo.ru",
+      "tagline": { "en": "Agency specializing in digital project development and integration for large businesses", "ru": "Агентство, занимающееся разработкой и интеграцией digital-проектов для крупного бизнеса" },
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "ru": [
@@ -128,14 +130,25 @@
     },
     {
       "id": "shopify",
-      "period": { "en": "Jun 2017 — Dec 2019", "ru": "Июнь 2017 — Дек 2019" },
-      "title": { "en": "Software Engineer", "ru": "Разработчик" },
-      "company": "Shopify",
+      "period": { "en": "Nov 2021 — Present", "ru": "Нояб 2021 — н. в." },
+      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+      "company": "Аутсорсинг",
       "url": "https://shopify.com",
+      "_tagline": { "en": "Global e-commerce platform", "ru": "Международная e-commerce платформа" },
       "location": { "en": "Ottawa, Canada", "ru": "Оттава, Канада" },
       "summary": {
-        "en": "Worked on merchant-facing tools and checkout infrastructure.",
-        "ru": "Разрабатывал инструменты для мерчантов и инфраструктуру оформления заказов."
+        "ru": [
+          "Дизайн мобильных приложений, интерфейсов и многостраничных сайтов",
+          "Создание дизайн систем и UI китов с использованием вариативных компонентов и микроанимаций и сборка макетов на их основе",
+          "Создание сложных интерактивных прототипов",
+          "Встречи и созвоны с заказчиками для обсуждения проектов"
+        ],
+        "en": [
+          "Design of mobile applications, interfaces and multi-page websites",
+          "Creating design systems and UI kits using variant components and micro-animations, and assembling layouts based on them",
+          "Creating complex interactive prototypes",
+          "Meetings and calls with clients to discuss projects"
+        ]
       },
       "description": {
         "en": "Part of the Checkout team, responsible for the core purchase flow powering millions of transactions per day.",
@@ -197,8 +210,9 @@
     }
   ],
   "contact": [
-    { "label": "Email", "value": "diquaxe@yandex.ru", "url": "diquaxe@yandex.ru" },
-    { "label": "Telegram", "value": "diquaxe", "url": "https://t.me/diquaxe" },
-    { "label": "LinkedIn", "value": "in/nikita-mohov", "url": "https://www.linkedin.com/in/nikita-mohov-8082363a6/" }
+    { "label": "Portfolio", "value": { "ru": "Портфолио", "en": "Portfolio" }, "url": "#" },
+    { "label": "Telegram", "value": "Telegram", "url": "https://t.me/diquaxe" },
+    { "label": "LinkedIn", "value": "LinkedIn", "url": "https://www.linkedin.com/in/nikita-mohov-8082363a6/" },
+    { "label": "Email", "value": "diquaxe@yandex.ru", "url": "mailto:diquaxe@yandex.ru" }
   ]
 }

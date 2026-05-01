@@ -1,8 +1,9 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
+import { useLocale } from '@/composables/useLocale.js'
+import { t } from '@/utils/t.js'
 
 defineProps({ items: Array })
-const { t: $t } = useI18n()
+const { locale } = useLocale()
 
 function isSafeUrl(url) {
   if (typeof url !== 'string') return false
@@ -11,28 +12,23 @@ function isSafeUrl(url) {
 </script>
 
 <template>
-  <section class="mb-10">
-    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6 text-tertiary">
-      {{ $t('sections.contact') }}
-    </h2>
-    <div class="flex flex-col gap-3">
-      <div v-for="(item, i) in items" :key="i" class="flex flex-col md:flex-row gap-2">
-        <div class="md:min-w-[180px] text-sm shrink-0 text-tertiary">
-          {{ item.label }}
-        </div>
+  <section class="mb-4">
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+      <template v-for="(item, i) in items" :key="i">
+        <span v-if="i > 0" class="text-tertiary select-none">|</span>
         <a
           v-if="isSafeUrl(item.url)"
           :href="item.url"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-sm text-primary transition-colors duration-300"
+          class="text-sm text-primary hover:underline transition-colors duration-300"
         >
-          {{ item.value }}
+          {{ t(item.value, locale) }}
         </a>
         <span v-else class="text-sm text-secondary">
-          {{ item.value }}
+          {{ t(item.value, locale) }}
         </span>
-      </div>
+      </template>
     </div>
   </section>
 </template>

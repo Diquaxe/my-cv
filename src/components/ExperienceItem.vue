@@ -39,7 +39,7 @@ defineProps({
         {{ location }}
       </p>
 
-      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside text-secondary">
+      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside text-secondary mt-3">
         <li v-for="(item, i) in description" :key="i">{{ item }}</li>
       </ul>
       <p v-else class="text-sm leading-relaxed text-secondary">

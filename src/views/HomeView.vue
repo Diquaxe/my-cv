@@ -26,11 +26,11 @@ watchEffect(() => {
     <Transition name="section" appear>
       <div>
         <AppHeader :name="name" :role="role" :avatar="profile.avatar" />
+        <SectionContact :items="profile.contact" />
         <SectionAbout :about="about" />
         <SectionExperience :items="profile.experience" />
         <SectionEducation :items="profile.education" />
         <SectionProjects :items="profile.projects" />
-        <SectionContact :items="profile.contact" />
       </div>
     </Transition>
   </main>

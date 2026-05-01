@@ -11,7 +11,7 @@ const { locale } = useLocale()
 
 <template>
   <section class="mb-10">
-    <h2 class="text-xs font-semibold uppercase tracking-widest mb-6 text-tertiary">
+    <h2 class="text-xl font-semibold leading-tight mb-6" style="color: #fff;">
       {{ $t('sections.experience') }}
     </h2>
     <ExperienceItem
@@ -22,7 +22,7 @@ const { locale } = useLocale()
       :company="item.company"
       :url="item.url"
       :work-url="'/work/' + item.id"
-      :location="t(item.location, locale)"
+      :location="t(item.tagline, locale)"
       :description="t(item.summary, locale)"
     />
   </section>
