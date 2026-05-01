@@ -16,7 +16,7 @@ const { locale } = useLocale()
         v-for="(skill, i) in items"
         :key="i"
         class="text-sm px-3 py-1 rounded-full text-secondary"
-        style="border: 1px solid var(--color-border, rgba(255,255,255,0.12)); background: rgba(255,255,255,0.04);"
+        style="border: 1px solid var(--color-border); background: var(--color-badge-bg);"
       >
         {{ skill }}
       </span>
