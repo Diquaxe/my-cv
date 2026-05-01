@@ -1,20 +1,16 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
 import { useLocale } from '@/composables/useLocale.js'
 import { t } from '@/utils/t.js'
+import { tKey } from '@/utils/tKey.js'
 
 defineProps({ items: Array })
-const { t: $t } = useI18n()
 const { locale } = useLocale()
 </script>
 
 <template>
   <section class="mb-10">
-    <h2
-      class="text-xl font-semibold leading-tight mb-6"
-      style="color: #fff;"
-    >
-      {{ $t('sections.education') }}
+    <h2 class="text-xl font-semibold leading-tight mb-6 text-primary">
+      {{ tKey('sections.education', locale.value) }}
     </h2>
     <div
       v-for="(item, i) in items"
