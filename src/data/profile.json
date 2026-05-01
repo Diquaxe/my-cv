@@ -16,18 +16,50 @@
       "url": "https://idaproject.com/",
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
-        "en": "Worked on design across multiple simultaneous projects: developed and maintained design systems, led product redesigns, and presented solutions to clients. Initiated improvements on projects — conducted research and proposed design architecture approaches. Participated in client calls, advocated for design decisions, and collaborated closely with development teams.",
-        "ru": "Занимался дизайном интерфейсов в рамках нескольких параллельных проектов: разрабатывал и поддерживал дизайн-системы, проводил редизайн продуктов, презентовал решения клиентам. Инициировал улучшения на проектах — проводил ресёрч, предлагал архитектурные подходы к дизайну. Участвовал в клиентских звонках, аргументировал решения и выстраивал коммуникацию с командой разработки."
+        "ru": [
+          "Одновременная работа над 5+ проектами",
+          "Сборка, актуализация и поддержка дизайн-систем на проектах",
+          "Реализовал подход с модульной разработкой новых макетов",
+          "Взаимодействие с заказчиками. Презентация и защита дизайн-решений перед клиентами",
+          "За два месяца погрузился в продукт и сделал редизайн для внутреннего интерфейса компании Самолет",
+          "Ускорил работу с компонентами на проекте в 8 раз",
+          "Поддержка и разработка нового функционала для личных кабинетов"
+        ],
+        "en": [
+          "Simultaneous work on 5+ projects",
+          "Building, updating and maintaining design systems across projects",
+          "Implemented a modular approach to developing new layouts",
+          "Client interaction. Presenting and defending design decisions to clients",
+          "In two months, dove deep into the product and delivered a redesign for Samolet's internal interface",
+          "Sped up component work on the project by 8x",
+          "Support and development of new functionality for personal account dashboards"
+        ]
       },
       "description": {
         "en": "Led backend infrastructure work for FigJam and core collaboration features. Worked closely with product and design to ship real-time multiplayer features at scale.",
         "ru": "Руководил разработкой бэкенд-инфраструктуры FigJam и ключевых функций совместной работы. Тесно взаимодействовал с продуктовой и дизайн-командами для запуска функций в реальном времени."
       },
       "achievements": [
-        "Optimized core API response times by 40% through query restructuring and caching",
-        "Launched the FigJam templates module used by 2M+ users",
-        "Mentored 4 mid-level engineers across two teams",
-        "Drove adoption of internal RPC framework across 6 microservices"
+        {
+          "ru": "Поддержка и развитие дизайн-систем на легаси проектах. Активное использование подхода с атомарным и компонентным дизайном при разработке новых фич для проектов",
+          "en": "Supported and developed design systems on legacy projects. Actively applied atomic and component design approaches when building new features."
+        },
+        {
+          "ru": "Инициировал комплексное улучшение РСТИ. Провел ресерч по ключевым страницам, точечно подсветил проблемы в блоках. Для более быстрой поддержки проекта со стороны дизайна и разработки предложил клиенту подход: разработка новой дизайн-системы → разработка модулей для каждого блока. В процессе реализации задачи была актуализирована старая ДС, разработаны новые компоненты и стили. Благодаря проделанной работе в будущем прогнозирую более быструю поддержку сайта по части дизайна, разработки и более прозрачную коммуникацию с клиентом, исключая моменты по типу: где находятся актуальные макеты?",
+          "en": "Initiated a comprehensive improvement of the RSTI project. Researched key pages and identified issues in individual blocks. To speed up design and development support, proposed a new approach to the client: building a new design system → developing modules for each block. During implementation, the old DS was updated and new components and styles were created. This is expected to enable faster site support and cleaner client communication going forward."
+        },
+        {
+          "ru": "За два месяца реализовал редизайн для панели регистрационного центра Самолет. Ежедневно созваниваясь с аналитиком, разработчиком и менеджером проекта совместно продумывали UserFlow.",
+          "en": "Within two months, delivered a redesign of the Samolet registration center dashboard. Met daily with the analyst, developer and project manager to collaboratively map out the UserFlow."
+        },
+        {
+          "ru": "Презентация проектов перед бизнесом",
+          "en": "Presenting projects to business stakeholders"
+        },
+        {
+          "ru": "Отрисовал обновленный пак иконок для Самолет, что ускорило работу с компонентами в фигме в 8 раз. На момент реализации задачи у Самолета была крупная проблема с использованием иконок в дизайне. Каждый свап инстанса (иконки) приводил к подвисанию фигмы на ~4–6 секунд, что существенно тормозило работу с компонентами. С обновленным паком инстансы стали меняться примерно за 0.5 секунд",
+          "en": "Redesigned the icon pack for Samolet, speeding up component work in Figma by 8x. At the time, Samolet had a critical problem with icons in design: every instance swap caused Figma to freeze for ~4–6 seconds, severely slowing down component work. With the updated pack, instance swaps now take approximately 0.5 seconds."
+        }
       ],
       "images": [],
       "links": [
@@ -42,17 +74,40 @@
       "url": "https://buroburo.ru",
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
-        "en": "Built payment infrastructure and developer-facing APIs.",
-        "ru": "Поддерживал и развивал клиентские проекты, участвовал в формировании бизнес- и функциональных требований совместно с заказчиками. Проектировал интерфейсы и многостраничные продукты, работал с дизайн-системами: проводил рефакторинг, создавал компонентную базу с вариантами и токенами. Взаимодействовал с разработчиками, оформлял кейсы для сайта студии."
+        "ru": [
+          "Поддержка и развитие клиентских проектов",
+          "Взаимодействие с заказчиками, участие в формировании бизнес и функциональных требований",
+          "Работа с готовыми дизайн-системами, их дополнение и рефакторинг. Создание компонентной базы дизайн-системы с вариантами и токенами.",
+          "Оформление кейсов для сайта студии",
+          "Разработка дизайна интерфейсов и многостраничных продуктов",
+          "Взаимодействие с разработчиками"
+        ],
+        "en": [
+          "Support and development of client projects",
+          "Interaction with clients, participation in forming business and functional requirements",
+          "Working with existing design systems, extending and refactoring them. Creating design system component base with variants and tokens.",
+          "Designing case studies for the studio website",
+          "Developing interface and multi-page product designs",
+          "Collaboration with developers"
+        ]
       },
       "description": {
         "en": "Worked on the Payments Platform team, owning critical API surfaces used by hundreds of thousands of developers worldwide.",
         "ru": "Работал в команде Payments Platform, отвечая за ключевые API-интерфейсы, которыми пользуются сотни тысяч разработчиков по всему миру."
       },
       "achievements": [
-        "Redesigned webhook delivery system reducing failure rate by 60%",
-        "Built internal dashboard for fraud signal monitoring",
-        "Led migration of legacy billing system to new architecture"
+        {
+          "en": "Redesigned webhook delivery system reducing failure rate by 60%",
+          "ru": "Переработал систему доставки вебхуков, снизив процент отказов на 60%"
+        },
+        {
+          "en": "Built internal dashboard for fraud signal monitoring",
+          "ru": "Разработал внутренний дашборд для мониторинга сигналов мошенничества"
+        },
+        {
+          "en": "Led migration of legacy billing system to new architecture",
+          "ru": "Руководил миграцией устаревшей системы биллинга на новую архитектуру"
+        }
       ],
       "images": [],
       "links": [
@@ -75,9 +130,18 @@
         "ru": "Входил в команду Checkout, отвечающую за основной процесс покупки, обрабатывающий миллионы транзакций в день."
       },
       "achievements": [
-        "Shipped checkout A/B testing framework used across all plans",
-        "Reduced checkout load time by 22% on mobile devices",
-        "Contributed to open-source Liquid templating engine"
+        {
+          "en": "Shipped checkout A/B testing framework used across all plans",
+          "ru": "Разработал фреймворк для A/B-тестирования чекаута, применяемый во всех тарифных планах"
+        },
+        {
+          "en": "Reduced checkout load time by 22% on mobile devices",
+          "ru": "Сократил время загрузки чекаута на 22% на мобильных устройствах"
+        },
+        {
+          "en": "Contributed to open-source Liquid templating engine",
+          "ru": "Внёс вклад в открытый шаблонизатор Liquid"
+        }
       ],
       "images": [],
       "links": [
@@ -87,14 +151,14 @@
   ],
   "education": [
     {
-      "period": "2011 — 2015",
+      "period": "2020",
       "degree": {
-        "en": "Bachelor of Science in Computer Science",
-        "ru": "Бакалавр по информатике"
+        "en": "Secondary Vocational · Information Technology",
+        "ru": "Среднее специальное · Информационные технологии"
       },
       "school": {
-        "en": "National University of Singapore",
-        "ru": "Национальный университет Сингапура"
+        "en": "ИПЭК",
+        "ru": "ИПЭК"
       }
     }
   ],

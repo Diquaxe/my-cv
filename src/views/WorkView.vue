@@ -36,10 +36,10 @@ watchEffect(() => {
       <!-- Header -->
       <div class="mb-10">
         <h1 class="text-2xl font-semibold mb-1 text-primary">
-          {{ t(item.title, locale) }}
+          {{ item.company }}
         </h1>
         <div class="flex flex-wrap gap-3 text-sm text-tertiary">
-          <span>{{ item.company }}</span>
+          <span>{{ t(item.title, locale) }}</span>
           <span>·</span>
           <span>{{ t(item.period, locale) }}</span>
           <span v-if="item.location">·</span>
@@ -66,7 +66,7 @@ watchEffect(() => {
             class="flex gap-3 text-sm text-secondary"
           >
             <span class="mt-[6px] shrink-0 w-1.5 h-1.5 rounded-full" style="background: var(--color-accent);"></span>
-            {{ ach }}
+            {{ t(ach, locale) }}
           </li>
         </ul>
       </div>
