@@ -9,6 +9,7 @@ defineProps({
   workUrl: String,
   location: String,
   description: [String, Array],
+  link: Object,
 })
 </script>
 
@@ -22,29 +23,59 @@ defineProps({
         <RouterLink
           v-if="workUrl"
           :to="workUrl"
-          class="font-medium transition-colors duration-300 text-primary hover:text-[var(--color-accent)]"
+          class="font-medium transition-colors duration-300"
         >
           {{ company }}
         </RouterLink>
-        <span v-else class="font-medium text-primary">
+        <span
+          v-else
+          class="font-medium text-primary"
+        >
           {{ company }}
         </span>
 
-        <span v-if="title" class="text-secondary">
+        <span
+          v-if="title"
+          class="text-secondary"
+        >
           · {{ title }}
         </span>
       </div>
 
-      <p v-if="location" class="text-sm mb-1 text-tertiary">
+      <p
+        v-if="location"
+        class="text-sm mb-1 text-tertiary"
+      >
         {{ location }}
       </p>
 
-      <ul v-if="Array.isArray(description)" class="text-sm leading-relaxed list-disc list-inside text-secondary">
-        <li v-for="(item, i) in description" :key="i">{{ item }}</li>
+      <ul
+        v-if="Array.isArray(description)"
+        class="text-sm leading-relaxed list-disc list-inside text-secondary mt-3"
+      >
+        <li
+          v-for="(item, i) in description"
+          :key="i"
+        >
+          {{ item }}
+        </li>
       </ul>
-      <p v-else class="text-sm leading-relaxed text-secondary">
+      <p
+        v-else
+        class="text-sm leading-relaxed text-secondary"
+      >
         {{ description }}
       </p>
+
+      <a
+        v-if="link?.url"
+        :href="link.url"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block text-sm mt-2 hover:underline transition-colors duration-300"
+      >
+        {{ link.label }}
+      </a>
     </div>
   </div>
 </template>

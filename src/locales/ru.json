@@ -2,10 +2,12 @@
   "nav": { "back": "Назад" },
   "sections": {
     "about": "Обо мне",
-    "experience": "Опыт",
+    "experience": "Опыт работы",
     "education": "Образование",
     "projects": "Проекты",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "skills": "Навыки",
+    "languages": "Языки"
   },
   "work": {
     "highlights": "Достижения",

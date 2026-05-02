@@ -4,6 +4,8 @@
   --color-label-secondary: #bbbbbb;
   --color-label-tertiary: #888888;
   --color-accent: #5b8dee;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-badge-bg: rgba(255, 255, 255, 0.04);
   --font-base: 16px;
   --leading-base: 1.8;
   --max-width: 580px;
@@ -14,6 +16,8 @@
   --color-label-primary: #111111;
   --color-label-secondary: #444444;
   --color-label-tertiary: #888888;
+  --color-border: rgba(0, 0, 0, 0.12);
+  --color-badge-bg: rgba(0, 0, 0, 0.04);
 }
 
 /* Color utility classes */
@@ -34,16 +38,6 @@ body {
   line-height: var(--leading-base);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   transition: background-color 0.3s, color 0.3s;
-}
-
-a {
-  color: var(--color-label-primary);
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: var(--color-accent);
 }
 
 ul {

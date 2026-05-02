@@ -4,9 +4,17 @@
   "role": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
   "avatar": "/images/avatar.jpg",
   "about": {
-    "en": "Software engineer with 8+ years of experience building scalable applications. Passionate about developer tooling, collaborative software, and clean system design.",
-    "ru": "Разработчик с более чем 8-летним опытом создания масштабируемых приложений. Увлечён инструментами разработки, совместным ПО и чистой архитектурой систем."
+    "en": "UX/UI designer focused on digital products, interfaces, and design systems. Experienced in client projects, mobile apps, and multi-page platforms across real estate and enterprise domains.",
+    "ru": "UX/UI дизайнер с фокусом на цифровых продуктах, интерфейсах и дизайн-системах. Опыт в клиентских проектах, мобильных приложениях и многостраничных платформах в сферах недвижимости и enterprise."
   },
+  "skills": [
+    "Figma", "FigJam", "Miro", "UI Design", "UX Research", "Prototyping",
+    "Design Systems", "UI Kit", "Wireframing", "User Testing", "Handoff", "Micro-animations"
+  ],
+  "languages": [
+    { "ru": "Русский язык — носитель", "en": "Russian — Native" },
+    { "ru": "Английский — B2", "en": "English — B2" }
+  ],
   "experience": [
     {
       "id": "idaproject",
@@ -14,70 +22,159 @@
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "IdaProject",
       "url": "https://idaproject.com/",
+      "tagline": { "en": "Design partner for 64% of top-100 ERZ developers", "ru": "Разработчик для 64% девелоперов из топ-100 ЕРЗ" },
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
-        "en": "Worked on design across multiple simultaneous projects: developed and maintained design systems, led product redesigns, and presented solutions to clients. Initiated improvements on projects — conducted research and proposed design architecture approaches. Participated in client calls, advocated for design decisions, and collaborated closely with development teams.",
-        "ru": "Занимался дизайном интерфейсов в рамках нескольких параллельных проектов: разрабатывал и поддерживал дизайн-системы, проводил редизайн продуктов, презентовал решения клиентам. Инициировал улучшения на проектах — проводил ресёрч, предлагал архитектурные подходы к дизайну. Участвовал в клиентских звонках, аргументировал решения и выстраивал коммуникацию с командой разработки."
+        "ru": [
+          "Одновременная работа над 5+ проектами",
+          "Сборка, актуализация и поддержка дизайн-систем на проектах",
+          "Реализовал подход с модульной разработкой новых макетов",
+          "Взаимодействие с заказчиками. Презентация и защита дизайн-решений перед клиентами",
+          "За два месяца погрузился в продукт и сделал редизайн для внутреннего интерфейса компании Самолет",
+          "Ускорил работу с компонентами на проекте в 8 раз",
+          "Поддержка и разработка нового функционала для личных кабинетов"
+        ],
+        "en": [
+          "Simultaneous work on 5+ projects",
+          "Building, updating and maintaining design systems across projects",
+          "Implemented a modular approach to developing new layouts",
+          "Client interaction. Presenting and defending design decisions to clients",
+          "In two months, dove deep into the product and delivered a redesign for Samolet's internal interface",
+          "Sped up component work on the project by 8x",
+          "Support and development of new functionality for personal account dashboards"
+        ]
       },
       "description": {
-        "en": "Led backend infrastructure work for FigJam and core collaboration features. Worked closely with product and design to ship real-time multiplayer features at scale.",
-        "ru": "Руководил разработкой бэкенд-инфраструктуры FigJam и ключевых функций совместной работы. Тесно взаимодействовал с продуктовой и дизайн-командами для запуска функций в реальном времени."
+        "en": "Designed interfaces for 5+ simultaneous client projects. Built and maintained design systems, delivered a full redesign of Samolet's internal registration center, and optimized icon components — reducing Figma swap time from ~5s to 0.5s.",
+        "ru": "Проектировал интерфейсы для 5+ клиентских проектов одновременно. Собирал и поддерживал дизайн-системы, выполнил полный редизайн кабинета регистрационного центра Самолёт, оптимизировал компоненты иконок — время свапа в Figma сократилось с ~5с до 0.5с."
       },
       "achievements": [
-        "Optimized core API response times by 40% through query restructuring and caching",
-        "Launched the FigJam templates module used by 2M+ users",
-        "Mentored 4 mid-level engineers across two teams",
-        "Drove adoption of internal RPC framework across 6 microservices"
+        {
+          "ru": "Поддержка и развитие дизайн-систем на легаси проектах. Активное использование подхода с атомарным и компонентным дизайном при разработке новых фич для проектов",
+          "en": "Supported and developed design systems on legacy projects. Actively applied atomic and component design approaches when building new features."
+        },
+        {
+          "ru": "Инициировал комплексное улучшение РСТИ. Провел ресерч по ключевым страницам, точечно подсветил проблемы в блоках. Для более быстрой поддержки проекта со стороны дизайна и разработки предложил клиенту подход: разработка новой дизайн-системы → разработка модулей для каждого блока. В процессе реализации задачи была актуализирована старая ДС, разработаны новые компоненты и стили. Благодаря проделанной работе в будущем прогнозирую более быструю поддержку сайта по части дизайна, разработки и более прозрачную коммуникацию с клиентом, исключая моменты по типу: где находятся актуальные макеты?",
+          "en": "Initiated a comprehensive improvement of the RSTI project. Researched key pages and identified issues in individual blocks. To speed up design and development support, proposed a new approach to the client: building a new design system → developing modules for each block. During implementation, the old DS was updated and new components and styles were created. This is expected to enable faster site support and cleaner client communication going forward."
+        },
+        {
+          "ru": "За два месяца реализовал редизайн для панели регистрационного центра Самолет. Ежедневно созваниваясь с аналитиком, разработчиком и менеджером проекта совместно продумывали UserFlow.",
+          "en": "Within two months, delivered a redesign of the Samolet registration center dashboard. Met daily with the analyst, developer and project manager to collaboratively map out the UserFlow."
+        },
+        {
+          "ru": "Презентация проектов перед бизнесом",
+          "en": "Presenting projects to business stakeholders"
+        },
+        {
+          "ru": "Отрисовал обновленный пак иконок для Самолет, что ускорило работу с компонентами в фигме в 8 раз. На момент реализации задачи у Самолета была крупная проблема с использованием иконок в дизайне. Каждый свап инстанса (иконки) приводил к подвисанию фигмы на ~4–6 секунд, что существенно тормозило работу с компонентами. С обновленным паком инстансы стали меняться примерно за 0.5 секунд",
+          "en": "Redesigned the icon pack for Samolet, speeding up component work in Figma by 8x. At the time, Samolet had a critical problem with icons in design: every instance swap caused Figma to freeze for ~4–6 seconds, severely slowing down component work. With the updated pack, instance swaps now take approximately 0.5 seconds."
+        }
       ],
       "images": [],
       "links": [
-        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://figma.com" }
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://idaproject.com/" }
       ]
     },
     {
       "id": "buroburo",
-      "period": { "en": "Jan 2020 — Mar 2023", "ru": "Фев 2022 — Окт 2024" },
+      "period": { "en": "Feb 2022 — Oct 2024", "ru": "Фев 2022 — Окт 2024" },
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "BuroBuro",
       "url": "https://buroburo.ru",
+      "tagline": { "en": "Agency specializing in digital project development and integration for large businesses", "ru": "Агентство, занимающееся разработкой и интеграцией digital-проектов для крупного бизнеса" },
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
-        "en": "Built payment infrastructure and developer-facing APIs.",
-        "ru": "Поддерживал и развивал клиентские проекты, участвовал в формировании бизнес- и функциональных требований совместно с заказчиками. Проектировал интерфейсы и многостраничные продукты, работал с дизайн-системами: проводил рефакторинг, создавал компонентную базу с вариантами и токенами. Взаимодействовал с разработчиками, оформлял кейсы для сайта студии."
+        "ru": [
+          "Поддержка и развитие клиентских проектов",
+          "Взаимодействие с заказчиками, участие в формировании бизнес и функциональных требований",
+          "Работа с готовыми дизайн-системами, их дополнение и рефакторинг. Создание компонентной базы дизайн-системы с вариантами и токенами.",
+          "Оформление кейсов для сайта студии",
+          "Разработка дизайна интерфейсов и многостраничных продуктов",
+          "Взаимодействие с разработчиками"
+        ],
+        "en": [
+          "Support and development of client projects",
+          "Interaction with clients, participation in forming business and functional requirements",
+          "Working with existing design systems, extending and refactoring them. Creating design system component base with variants and tokens.",
+          "Designing case studies for the studio website",
+          "Developing interface and multi-page product designs",
+          "Collaboration with developers"
+        ]
       },
       "description": {
-        "en": "Worked on the Payments Platform team, owning critical API surfaces used by hundreds of thousands of developers worldwide.",
-        "ru": "Работал в команде Payments Platform, отвечая за ключевые API-интерфейсы, которыми пользуются сотни тысяч разработчиков по всему миру."
+        "en": "Designed UI/UX interfaces and multi-page digital products. Supported and developed client projects across all stages of the lifecycle. Participated in gathering and defining business and functional requirements, collaborating with clients. Worked with design systems: conducted refactoring, created and expanded component libraries using tokens and variants. Collaborated with development teams to ensure accurate implementation of design solutions. Produced portfolio case studies for the studio website.",
+        "ru": "Разрабатывал UI/UX интерфейсы и многостраничные цифровые продукты. Поддерживал и развивал клиентские проекты на всех этапах жизненного цикла. Участвовал в сборе и формировании бизнес- и функциональных требований, взаимодействовал с заказчиками. Работал с дизайн-системами: проводил рефакторинг, создавал и расширял компонентную базу с использованием токенов и вариантов. Взаимодействовал с командой разработчиков для обеспечения корректной реализации дизайн-решений. Оформлял портфолио кейсов для сайта студии."
       },
       "achievements": [
-        "Redesigned webhook delivery system reducing failure rate by 60%",
-        "Built internal dashboard for fraud signal monitoring",
-        "Led migration of legacy billing system to new architecture"
+        {
+          "ru": "Разработка UI/UX дизайна интерфейсов и многостраничных цифровых продуктов",
+          "en": "Designing UI/UX interfaces and multi-page digital products"
+        },
+        {
+          "ru": "Поддержка и развитие клиентских проектов на всех этапах жизненного цикла",
+          "en": "Supporting and developing client projects across all stages of the lifecycle"
+        },
+        {
+          "ru": "Сбор и формирование бизнес- и функциональных требований, взаимодействие с заказчиками",
+          "en": "Gathering and defining business and functional requirements, collaborating with clients"
+        },
+        {
+          "ru": "Разработка и рефакторинг дизайн-систем: создание компонентной базы, настройка токенов и вариантов компонентов",
+          "en": "Developing and refactoring design systems: building component libraries, configuring tokens and component variants"
+        },
+        {
+          "ru": "Взаимодействие с командой разработчиков для корректного handoff и реализации дизайн-решений",
+          "en": "Collaborating with development teams for accurate handoff and implementation of design solutions"
+        },
+        {
+          "ru": "Подготовка и оформление портфолио кейсов для сайта студии",
+          "en": "Preparing and publishing portfolio case studies for the studio website"
+        }
       ],
       "images": [],
       "links": [
-        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://stripe.com" }
+        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://buroburo.ru" }
       ]
     },
     {
       "id": "shopify",
-      "period": { "en": "Jun 2017 — Dec 2019", "ru": "Июнь 2017 — Дек 2019" },
-      "title": { "en": "Software Engineer", "ru": "Разработчик" },
-      "company": "Shopify",
+      "period": { "en": "Nov 2021 — Present", "ru": "Нояб 2021 — н. в." },
+      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+      "company": "Аутсорсинг",
       "url": "https://shopify.com",
+      "_tagline": { "en": "Global e-commerce platform", "ru": "Международная e-commerce платформа" },
       "location": { "en": "Ottawa, Canada", "ru": "Оттава, Канада" },
       "summary": {
-        "en": "Worked on merchant-facing tools and checkout infrastructure.",
-        "ru": "Разрабатывал инструменты для мерчантов и инфраструктуру оформления заказов."
+        "ru": [
+          "Дизайн мобильных приложений, интерфейсов и многостраничных сайтов",
+          "Создание дизайн систем и UI китов с использованием вариативных компонентов и микроанимаций и сборка макетов на их основе",
+          "Создание сложных интерактивных прототипов",
+          "Встречи и созвоны с заказчиками для обсуждения проектов"
+        ],
+        "en": [
+          "Design of mobile applications, interfaces and multi-page websites",
+          "Creating design systems and UI kits using variant components and micro-animations, and assembling layouts based on them",
+          "Creating complex interactive prototypes",
+          "Meetings and calls with clients to discuss projects"
+        ]
       },
       "description": {
-        "en": "Part of the Checkout team, responsible for the core purchase flow powering millions of transactions per day.",
-        "ru": "Входил в команду Checkout, отвечающую за основной процесс покупки, обрабатывающий миллионы транзакций в день."
+        "en": "Designed mobile apps, interfaces and multi-page websites for various clients. Created design systems and UI kits with variant components and micro-animations. Developed interactive prototypes and maintained direct client communication.",
+        "ru": "Разрабатывал мобильные приложения, интерфейсы и многостраничные сайты для различных заказчиков. Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями. Разрабатывал интерактивные прототипы и вёл прямую коммуникацию с клиентами."
       },
       "achievements": [
-        "Shipped checkout A/B testing framework used across all plans",
-        "Reduced checkout load time by 22% on mobile devices",
-        "Contributed to open-source Liquid templating engine"
+        {
+          "en": "Designed mobile applications and multi-page websites across various client domains",
+          "ru": "Разрабатывал мобильные приложения и многостраничные сайты для различных клиентских проектов"
+        },
+        {
+          "en": "Built design systems and UI kits with variant components and micro-animations",
+          "ru": "Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями"
+        },
+        {
+          "en": "Created complex interactive prototypes for client presentations and development handoff",
+          "ru": "Разрабатывал сложные интерактивные прототипы для презентаций заказчикам и передачи в разработку"
+        }
       ],
       "images": [],
       "links": [
@@ -87,27 +184,40 @@
   ],
   "education": [
     {
-      "period": "2011 — 2015",
+      "period": "2020",
       "degree": {
-        "en": "Bachelor of Science in Computer Science",
-        "ru": "Бакалавр по информатике"
+        "en": "Secondary Vocational · Information Technology",
+        "ru": "Среднее специальное · Информационные технологии"
       },
       "school": {
-        "en": "National University of Singapore",
-        "ru": "Национальный университет Сингапура"
+        "en": "ИПЭК",
+        "ru": "ИПЭК"
       }
     }
   ],
   "projects": [
     {
-      "id": "codesnip",
-      "period": { "en": "Ongoing", "ru": "Сейчас" },
-      "title": "CodeSnip",
-      "url": "https://codesnip.dev",
+      "id": "my-cv",
+      "period": "2026",
+      "title": "My CV",
       "description": {
-        "en": "A tool to save and share code snippets, built with React and Firebase. 3k+ active users.",
-        "ru": "Инструмент для сохранения и обмена сниппетами кода, построенный на React и Firebase. Более 3000 активных пользователей."
-      }
+        "ru": "Вы сейчас на нем находитесь. Простой сайт для размещения CV, написанный с помощью Claude Code.",
+        "en": "You are on it right now. A simple CV site written with Claude Code."
+      },
+      "caseUrl": "https://github.com/Diquaxe/my-cv",
+      "caseLabel": { "ru": "Репозиторий на GitHub", "en": "GitHub Repository" }
+    },
+    {
+      "id": "companies-ui",
+      "period": { "en": "Ongoing", "ru": "Сейчас" },
+      "title": "Companies UI",
+      "url": "https://dprofile.ru/case/70794/companies-ui",
+      "description": {
+        "en": "A repository website of corporate identity styles from well-known companies around the world.",
+        "ru": "Сайт-репозиторий фирменных стилей известных компаний со всего мира."
+      },
+      "caseUrl": "https://dprofile.ru/case/70794/companies-ui",
+      "caseLabel": { "ru": "Смотреть кейс", "en": "View case" }
     },
     {
       "id": "dbdiff",
@@ -121,8 +231,9 @@
     }
   ],
   "contact": [
-    { "label": "Email", "value": "diquaxe@yandex.ru", "url": "diquaxe@yandex.ru" },
-    { "label": "Telegram", "value": "diquaxe", "url": "https://t.me/diquaxe" },
-    { "label": "LinkedIn", "value": "in/nikita-mohov", "url": "https://www.linkedin.com/in/nikita-mohov-8082363a6/" }
+    { "label": "Portfolio", "value": { "ru": "Портфолио", "en": "Portfolio" }, "url": "#" },
+    { "label": "Telegram", "value": "Telegram", "url": "https://t.me/diquaxe" },
+    { "label": "LinkedIn", "value": "LinkedIn", "url": "https://www.linkedin.com/in/nikita-mohov-8082363a6/" },
+    { "label": "Email", "value": "diquaxe@yandex.ru", "url": "mailto:diquaxe@yandex.ru" }
   ]
 }
