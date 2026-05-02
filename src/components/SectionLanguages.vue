@@ -10,7 +10,7 @@ const { locale } = useLocale()
 <template>
   <section class="mb-10">
     <h2 class="text-xl font-semibold leading-tight mb-6 text-primary">
-      {{ tKey('sections.languages', locale.value) }}
+      {{ tKey('sections.languages', locale) }}
     </h2>
     <div class="flex flex-wrap gap-2">
       <span

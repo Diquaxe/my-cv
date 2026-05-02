@@ -11,7 +11,7 @@ const { locale } = useLocale()
 <template>
   <section class="mb-10">
     <h2 class="text-xl font-semibold leading-tight mb-6 text-primary">
-      {{ tKey('sections.experience', locale.value) }}
+      {{ tKey('sections.experience', locale) }}
     </h2>
     <ExperienceItem
       v-for="item in items"
