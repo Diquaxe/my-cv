@@ -218,16 +218,6 @@
       },
       "caseUrl": "https://dprofile.ru/case/70794/companies-ui",
       "caseLabel": { "ru": "Смотреть кейс", "en": "View case" }
-    },
-    {
-      "id": "dbdiff",
-      "period": "2022",
-      "title": "dbdiff",
-      "url": "https://github.com/hiroshi/dbdiff",
-      "description": {
-        "en": "Open-source CLI to diff two database schemas and generate migration scripts. 400+ GitHub stars.",
-        "ru": "Open-source CLI для сравнения схем баз данных и генерации миграций. Более 400 звёзд на GitHub."
-      }
     }
   ],
   "contact": [
