@@ -1,12 +1,9 @@
 <script setup>
-import { RouterLink } from 'vue-router'
-
 defineProps({
   period: String,
   title: String,
   company: String,
   url: String,
-  workUrl: String,
   location: String,
   description: [String, Array],
   link: Object,
@@ -20,17 +17,16 @@ defineProps({
     </div>
     <div class="flex-1">
       <div class="flex flex-wrap items-center gap-2 mb-1">
-        <RouterLink
-          v-if="workUrl"
-          :to="workUrl"
-          class="font-medium transition-colors duration-300"
+        <a
+          v-if="url"
+          :href="url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-medium text-primary transition-colors duration-300"
         >
           {{ company }}
-        </RouterLink>
-        <span
-          v-else
-          class="font-medium text-primary"
-        >
+        </a>
+        <span v-else class="font-medium text-primary">
           {{ company }}
         </span>
 

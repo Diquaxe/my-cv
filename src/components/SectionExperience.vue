@@ -20,8 +20,7 @@ const { locale } = useLocale()
       :title="t(item.title, locale)"
       :company="item.company"
       :url="item.url"
-      :work-url="'/work/' + item.id"
-      :location="t(item.tagline, locale)"
+:location="t(item.tagline, locale)"
       :description="t(item.summary, locale)"
     />
   </section>
