@@ -21,6 +21,7 @@ function isSafeUrl(url) {
         <span
           v-if="i > 0"
           class="text-tertiary select-none"
+          style="font-size: 14px;"
         >|</span>
         <a
           v-if="isSafeUrl(item.url)"
