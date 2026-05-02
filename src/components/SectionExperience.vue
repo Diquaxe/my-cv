@@ -20,8 +20,9 @@ const { locale } = useLocale()
       :title="t(item.title, locale)"
       :company="item.company"
       :url="item.url"
-:location="t(item.tagline, locale)"
+      :location="t(item.tagline, locale)"
       :description="t(item.summary, locale)"
+      :companyLink="item.url && item.links?.[0] ? { url: item.url, label: t(item.links[0].label, locale) } : null"
     />
   </section>
 </template>

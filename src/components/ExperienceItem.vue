@@ -7,6 +7,7 @@ defineProps({
   location: String,
   description: [String, Array],
   link: Object,
+  companyLink: Object,
 })
 </script>
 
@@ -19,12 +20,9 @@ defineProps({
           :href="url"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center gap-1 font-medium text-primary transition-colors duration-300"
+          class="font-medium text-primary transition-colors duration-300"
         >
           {{ company }}
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"/>
-          </svg>
         </a>
         <span v-else class="font-medium text-primary">
           {{ company }}
@@ -65,6 +63,19 @@ defineProps({
     >
       {{ description }}
     </p>
+
+    <a
+      v-if="companyLink?.url"
+      :href="companyLink.url"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-1 text-sm mt-2 hover:underline transition-colors duration-300"
+    >
+      {{ companyLink.label }}
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M16.0037 9.41421L7.39712 18.0208L5.98291 16.6066L14.5895 8H7.00373V6H18.0037V17H16.0037V9.41421Z"/>
+      </svg>
+    </a>
 
     <a
       v-if="link?.url"
