@@ -22,7 +22,7 @@
       "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
       "company": "IdaProject",
       "url": "https://idaproject.com/",
-      "tagline": { "en": "Design partner for 64% of top-100 ERZ developers", "ru": "Разработчик для 64% девелоперов из топ-100 ЕРЗ" },
+      "tagline": { "en": "PropTech company, leader in developing digital products for the largest property developers in Russia", "ru": "PropTech-компания, лидер в разработке цифровых продуктов для крупнейших застройщиков и девелоперов в России" },
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "ru": [
@@ -30,18 +30,18 @@
           "Сборка, актуализация и поддержка дизайн-систем на проектах",
           "Реализовал подход с модульной разработкой новых макетов",
           "Взаимодействие с заказчиками. Презентация и защита дизайн-решений перед клиентами",
-          "За два месяца погрузился в продукт и сделал редизайн для внутреннего интерфейса компании Самолет",
-          "Ускорил работу с компонентами на проекте в 8 раз",
-          "Поддержка и разработка нового функционала для личных кабинетов"
+          "Редизайн внутреннего интерфейса для компании Самолет, участие в кросс-ревью",
+          "Ускорил работу с компонентами в дизайн-системе Самолет в 8 раз",
+          "Поддержка и разработка нового функционала для личных кабинетов ГАЛС, Самолет, СберСити и Level"
         ],
         "en": [
           "Simultaneous work on 5+ projects",
           "Building, updating and maintaining design systems across projects",
           "Implemented a modular approach to developing new layouts",
           "Client interaction. Presenting and defending design decisions to clients",
-          "In two months, dove deep into the product and delivered a redesign for Samolet's internal interface",
-          "Sped up component work on the project by 8x",
-          "Support and development of new functionality for personal account dashboards"
+          "Redesign of the internal interface for Samolet, participation in cross-reviews",
+          "Sped up component work in the Samolet design system by 8x",
+          "Support and development of new functionality for personal account dashboards of GALS, Samolet, SberCity and Level"
         ]
       },
       "description": {
