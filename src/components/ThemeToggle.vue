@@ -20,7 +20,7 @@ function toggle() {
 
 <template>
   <div
-    class="fixed top-5 right-5 z-50 flex items-center"
+    class="flex items-center"
     style="gap: 8px;"
   >
     <button

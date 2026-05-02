@@ -8,17 +8,18 @@ defineProps({
 
 <template>
   <header class="mb-10">
-    <div class="flex items-center gap-6 mb-3">
+    <div class="flex items-start justify-between gap-6 mb-3">
+      <div class="flex items-center gap-6">
       <img
         v-if="avatar"
         :src="avatar"
         :alt="name"
-        class="w-20 h-20 rounded-full object-cover"
+        class="w-[72px] h-[72px] rounded-full object-cover"
         @error="$event.target.style.display='none'"
       >
       <div
         v-else
-        class="w-20 h-20 rounded-full flex items-center justify-center text-lg font-medium"
+        class="w-[72px] h-[72px] rounded-full flex items-center justify-center text-lg font-medium"
         style="background: var(--color-accent); color: #fff;"
       >
         {{ name?.charAt(0) }}
@@ -32,5 +33,7 @@ defineProps({
         </p>
       </div>
     </div>
+    <slot />
+  </div>
   </header>
 </template>

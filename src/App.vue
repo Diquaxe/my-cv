@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted } from 'vue'
 import { RouterView } from 'vue-router'
-import ThemeToggle from './components/ThemeToggle.vue'
 import profile from './data/profile.json'
 import { useGeoLang } from './composables/useGeoLang.js'
 
@@ -20,7 +19,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <ThemeToggle />
   <RouterView v-slot="{ Component }">
     <Transition
       name="fade"

@@ -10,24 +10,22 @@ const { locale } = useLocale()
 <template>
   <section class="mb-10">
     <h2 class="text-xl font-semibold leading-tight mb-6 text-primary">
-      {{ tKey('sections.education', locale.value) }}
+      {{ tKey('sections.education', locale) }}
     </h2>
     <div
       v-for="(item, i) in items"
       :key="i"
-      class="flex flex-col md:flex-row gap-2 mb-9"
+      class="mb-9"
     >
-      <div class="md:min-w-[180px] text-sm shrink-0 text-tertiary">
-        {{ t(item.period, locale) }}
-      </div>
-      <div class="flex-1">
-        <p class="font-medium mb-0.5 text-primary">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-1">
+        <p class="font-medium text-primary">
           {{ t(item.degree, locale) }}
         </p>
-        <p class="text-sm text-secondary">
-          {{ t(item.school, locale) }}
-        </p>
+        <span class="text-sm text-tertiary mb-2 sm:mb-0 shrink-0">{{ t(item.period, locale) }}</span>
       </div>
+      <p class="text-sm text-secondary">
+        {{ t(item.school, locale) }}
+      </p>
     </div>
   </section>
 </template>

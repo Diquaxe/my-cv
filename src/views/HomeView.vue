@@ -1,6 +1,7 @@
 <script setup>
 import { computed, watchEffect } from 'vue'
 import AppHeader from '../components/AppHeader.vue'
+import ThemeToggle from '../components/ThemeToggle.vue'
 import SectionAbout from '../components/SectionAbout.vue'
 import SectionExperience from '../components/SectionExperience.vue'
 import SectionEducation from '../components/SectionEducation.vue'
@@ -25,7 +26,7 @@ watchEffect(() => {
 
 <template>
   <main
-    class="mx-auto px-4 sm:px-0 my-20"
+    class="mx-auto px-4 sm:px-0 mt-12 mb-20"
     style="max-width: var(--max-width);"
   >
     <Transition
@@ -37,7 +38,9 @@ watchEffect(() => {
           :name="name"
           :role="role"
           :avatar="profile.avatar"
-        />
+        >
+          <ThemeToggle />
+        </AppHeader>
         <SectionContact :items="profile.contact" />
         <SectionAbout :about="about" />
         <SectionExperience :items="profile.experience" />
