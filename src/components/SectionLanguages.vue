@@ -14,8 +14,8 @@ const { locale } = useLocale()
     </h2>
     <div class="flex flex-wrap gap-2">
       <span
-        v-for="(item, i) in items"
-        :key="i"
+        v-for="item in items"
+        :key="item.en ?? item"
         class="text-sm px-3 py-1 rounded-full text-secondary"
         style="border: 1px solid var(--color-border); background: var(--color-badge-bg);"
       >

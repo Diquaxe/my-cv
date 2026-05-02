@@ -13,8 +13,8 @@ const { locale } = useLocale()
       {{ tKey('sections.education', locale) }}
     </h2>
     <div
-      v-for="(item, i) in items"
-      :key="i"
+      v-for="item in items"
+      :key="item.school?.en ?? item.school"
       class="mb-9"
     >
       <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-1">

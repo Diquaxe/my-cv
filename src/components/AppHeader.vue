@@ -1,9 +1,13 @@
 <script setup>
+import { ref } from 'vue'
+
 defineProps({
   name: String,
   role: String,
   avatar: String,
 })
+
+const imgError = ref(false)
 </script>
 
 <template>
@@ -11,11 +15,11 @@ defineProps({
     <div class="flex items-start justify-between gap-6 mb-3">
       <div class="flex items-center gap-6">
       <img
-        v-if="avatar"
+        v-if="avatar && !imgError"
         :src="avatar"
         :alt="name"
         class="w-[72px] h-[72px] rounded-full object-cover"
-        @error="$event.target.style.display='none'"
+        @error="imgError = true"
       >
       <div
         v-else
