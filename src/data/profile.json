@@ -134,6 +134,47 @@
       "links": [
         { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://buroburo.ru" }
       ]
+    },
+    {
+      "id": "outsource",
+      "period": { "en": "Nov 2021 — Present", "ru": "Нояб 2021 — н. в." },
+      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
+      "company": "Аутсорсинг",
+      "location": { "en": "Remote", "ru": "Удалённо" },
+      "summary": {
+        "ru": [
+          "Разрабатывал мобильные приложения, интерфейсы и многостраничные сайты",
+          "Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями",
+          "Разрабатывал сложные интерактивные прототипы",
+          "Взаимодействовал с заказчиками: проводил встречи и созвоны по проектам"
+        ],
+        "en": [
+          "Designed mobile applications, interfaces and multi-page websites",
+          "Built design systems and UI kits with variant components and micro-animations",
+          "Developed complex interactive prototypes",
+          "Collaborated with clients: conducted meetings and calls on projects"
+        ]
+      },
+      "description": {
+        "en": "Designed mobile apps, interfaces and multi-page websites for various clients. Created design systems and UI kits with variant components and micro-animations. Developed interactive prototypes and maintained direct client communication.",
+        "ru": "Разрабатывал мобильные приложения, интерфейсы и многостраничные сайты для различных заказчиков. Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями. Разрабатывал интерактивные прототипы и вёл прямую коммуникацию с клиентами."
+      },
+      "achievements": [
+        {
+          "ru": "Разрабатывал мобильные приложения и многостраничные сайты для различных клиентских проектов",
+          "en": "Designed mobile applications and multi-page websites across various client domains"
+        },
+        {
+          "ru": "Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями",
+          "en": "Built design systems and UI kits with variant components and micro-animations"
+        },
+        {
+          "ru": "Разрабатывал сложные интерактивные прототипы для презентаций заказчикам и передачи в разработку",
+          "en": "Created complex interactive prototypes for client presentations and development handoff"
+        }
+      ],
+      "images": [],
+      "links": []
     }
   ],
   "education": [
