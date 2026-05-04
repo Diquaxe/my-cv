@@ -4,16 +4,17 @@
   "role": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
   "avatar": "/images/avatar.jpg",
   "about": {
-    "en": "UX/UI designer focused on digital products, interfaces, and design systems. Experienced in client projects, mobile apps, and multi-page platforms across real estate and enterprise domains.",
-    "ru": "UX/UI дизайнер с фокусом на цифровых продуктах, интерфейсах и дизайн-системах. Опыт в клиентских проектах, мобильных приложениях и многостраничных платформах в сферах недвижимости и enterprise."
+    "en": "Designed UX/UI interfaces for PropTech platforms and high-load enterprise projects. Worked simultaneously on 5+ projects, including redesign of personal dashboards for Samolet, GALS, SberCity, and Level. Sped up component work in the Samolet design system by 8x. Implemented modular layout development for RSTI. Collaborated with clients and developers.",
+    "ru": "Разрабатывал UX/UI интерфейсы для PropTech-платформ и высоконагруженных проектов крупного бизнеса. Работал параллельно над 5+ проектами, включая редизайн личных кабинетов Самолет, ГАЛС, СберСити, Level. Ускорил работу с компонентами дизайн-системы Самолет в 8 раз. Реализовал модульную разработку макетов для РСТИ. Взаимодействовал с заказчиками и разработчиками."
   },
   "skills": [
-    "Figma", "FigJam", "Miro", "UI Design", "UX Research", "Prototyping",
-    "Design Systems", "UI Kit", "Wireframing", "User Testing", "Handoff", "Micro-animations"
+    "Figma", "Atomic Design", "UX", "UI", "Adobe Photoshop", "Adobe Illustrator",
+    "HTML", "CSS", "AI Image Generation", "Design Systems", "Auto Layout",
+    "Components", "Variables", "Midjourney", "Krea", "Cursor"
   ],
   "languages": [
     { "ru": "Русский язык — носитель", "en": "Russian — Native" },
-    { "ru": "Английский — B2", "en": "English — B2" }
+    { "ru": "Английский — B1", "en": "English — B1" }
   ],
   "experience": [
     {
@@ -26,22 +27,20 @@
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "ru": [
-          "Одновременная работа над 5+ проектами",
-          "Сборка, актуализация и поддержка дизайн-систем на проектах",
-          "Реализовал подход с модульной разработкой новых макетов",
-          "Взаимодействие с заказчиками. Презентация и защита дизайн-решений перед клиентами",
-          "Редизайн внутреннего интерфейса для компании Самолет, участие в кросс-ревью",
-          "Ускорил работу с компонентами в дизайн-системе Самолет в 8 раз",
-          "Поддержка и разработка нового функционала для личных кабинетов ГАЛС, Самолет, СберСити и Level"
+          "Вел одновременную работу над 5+ проектами",
+          "Реализовал модульную разработку новых макетов для РСТИ",
+          "Взаимодействовал с заказчиками: презентовал и защищал дизайн-решения",
+          "Провел редизайн внутреннего интерфейса Самолет с кросс-ревью",
+          "Ускорил работу с компонентами дизайн-системы Самолет в 8 раз",
+          "Обеспечивал поддержку и разработку функционала личных кабинетов ГАЛС, Самолет, СберСити, Level"
         ],
         "en": [
-          "Simultaneous work on 5+ projects",
-          "Building, updating and maintaining design systems across projects",
-          "Implemented a modular approach to developing new layouts",
-          "Client interaction. Presenting and defending design decisions to clients",
-          "Redesign of the internal interface for Samolet, participation in cross-reviews",
+          "Led simultaneous work on 5+ projects",
+          "Implemented modular layout development for RSTI",
+          "Collaborated with clients: presented and defended design decisions",
+          "Delivered a redesign of Samolet's internal interface with cross-review",
           "Sped up component work in the Samolet design system by 8x",
-          "Support and development of new functionality for personal account dashboards of GALS, Samolet, SberCity and Level"
+          "Supported and developed functionality for GALS, Samolet, SberCity, and Level personal dashboards"
         ]
       },
       "description": {
@@ -85,20 +84,20 @@
       "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
       "summary": {
         "ru": [
-          "Поддержка и развитие клиентских проектов",
-          "Взаимодействие с заказчиками, участие в формировании бизнес и функциональных требований",
-          "Работа с готовыми дизайн-системами, их дополнение и рефакторинг. Создание компонентной базы дизайн-системы с вариантами и токенами.",
-          "Оформление кейсов для сайта студии",
-          "Разработка дизайна интерфейсов и многостраничных продуктов",
-          "Взаимодействие с разработчиками"
+          "Обеспечивал поддержку и развитие клиентских проектов",
+          "Взаимодействовал с заказчиками, участвовал в формировании бизнес- и функциональных требований",
+          "Работал с дизайн-системами: дополнял, рефакторил, создавал компонентную базу с вариантами и токенами",
+          "Оформлял кейсы для сайта студии",
+          "Разрабатывал дизайн интерфейсов и многостраничных продуктов",
+          "Взаимодействовал с разработчиками"
         ],
         "en": [
-          "Support and development of client projects",
-          "Interaction with clients, participation in forming business and functional requirements",
-          "Working with existing design systems, extending and refactoring them. Creating design system component base with variants and tokens.",
-          "Designing case studies for the studio website",
-          "Developing interface and multi-page product designs",
-          "Collaboration with developers"
+          "Supported and developed client projects",
+          "Collaborated with clients, participated in forming business and functional requirements",
+          "Worked with design systems: extended, refactored, built component bases with variants and tokens",
+          "Designed case studies for the studio website",
+          "Developed interface and multi-page product designs",
+          "Collaborated with developers"
         ]
       },
       "description": {
@@ -135,50 +134,6 @@
       "links": [
         { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://buroburo.ru" }
       ]
-    },
-    {
-      "id": "shopify",
-      "period": { "en": "Nov 2021 — Present", "ru": "Нояб 2021 — н. в." },
-      "title": { "en": "UX/UI Designer", "ru": "UX/UI Дизайнер" },
-      "company": "Аутсорсинг",
-      "_tagline": { "en": "Global e-commerce platform", "ru": "Международная e-commerce платформа" },
-      "location": { "en": "Ottawa, Canada", "ru": "Оттава, Канада" },
-      "summary": {
-        "ru": [
-          "Дизайн мобильных приложений, интерфейсов и многостраничных сайтов",
-          "Создание дизайн систем и UI китов с использованием вариативных компонентов и микроанимаций и сборка макетов на их основе",
-          "Создание сложных интерактивных прототипов",
-          "Встречи и созвоны с заказчиками для обсуждения проектов"
-        ],
-        "en": [
-          "Design of mobile applications, interfaces and multi-page websites",
-          "Creating design systems and UI kits using variant components and micro-animations, and assembling layouts based on them",
-          "Creating complex interactive prototypes",
-          "Meetings and calls with clients to discuss projects"
-        ]
-      },
-      "description": {
-        "en": "Designed mobile apps, interfaces and multi-page websites for various clients. Created design systems and UI kits with variant components and micro-animations. Developed interactive prototypes and maintained direct client communication.",
-        "ru": "Разрабатывал мобильные приложения, интерфейсы и многостраничные сайты для различных заказчиков. Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями. Разрабатывал интерактивные прототипы и вёл прямую коммуникацию с клиентами."
-      },
-      "achievements": [
-        {
-          "en": "Designed mobile applications and multi-page websites across various client domains",
-          "ru": "Разрабатывал мобильные приложения и многостраничные сайты для различных клиентских проектов"
-        },
-        {
-          "en": "Built design systems and UI kits with variant components and micro-animations",
-          "ru": "Создавал дизайн-системы и UI-киты с вариативными компонентами и микроанимациями"
-        },
-        {
-          "en": "Created complex interactive prototypes for client presentations and development handoff",
-          "ru": "Разрабатывал сложные интерактивные прототипы для презентаций заказчикам и передачи в разработку"
-        }
-      ],
-      "images": [],
-      "links": [
-        { "label": { "en": "Company website", "ru": "Сайт компании" }, "url": "https://shopify.com" }
-      ]
     }
   ],
   "education": [
@@ -190,7 +145,7 @@
       },
       "school": {
         "en": "IIEC (Izhevsk Industrial and Economic College)",
-        "ru": "ИПЭК"
+        "ru": "АПОУ УР «ИПЭК»"
       }
     }
   ],
